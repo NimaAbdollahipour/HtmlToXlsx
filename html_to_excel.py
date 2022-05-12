@@ -58,4 +58,3 @@ def save_as_xlsx(table, name):
 if __name__ == "__main__":
     for i,j in enumerate(combined('sample.html')):
         save_as_xlsx(j,str(i))
-    run()
